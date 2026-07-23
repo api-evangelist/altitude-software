@@ -1,23 +1,82 @@
 aid: altitude-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/altitude-software.png
 name: Altitude Software
-description: Altitude Software is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Altitude Software is a contact center and unified customer interaction (uCI)
+  software company founded in 1993 and headquartered in Lisbon, Portugal. Its
+  flagship Altitude uCI suite provides omnichannel contact center capabilities —
+  inbound/outbound campaigns, IVR and self-service, routing, dialer, recording
+  and quality management, and CRM/ERP integration — with the Altitude uAgent SDK
+  exposing Java, C/C++, .NET, SOAP, XML-RPC and web-service APIs for on-premises
+  and cloud deployments. Altitude Software was a portfolio company of Insight
+  Partners and was acquired by Enghouse Systems (TSX: ENGH) on 2020-12-30; the
+  product line is now developed and maintained by Enghouse Interactive, and the
+  brand continues to operate regionally (e.g. Altitude Software APAC). The
+  company does not publish a modern public REST API, developer portal, or
+  OpenAPI specification; integration is delivered through the proprietary uAgent
+  SDK and packaged CRM/ERP connectors.
 url: https://raw.githubusercontent.com/api-evangelist/altitude-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - insight-partners
+x-acquired-by: enghouse-systems
+x-acquired-date: '2020-12-30'
+x-status: acquired-legacy
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: >-
+  Enriched 2026-07-17. No public API program found. Canonical domain
+  altitude.com is now a parked domain for sale and no longer controlled by the
+  company; the live first-party surface is the APAC regional site
+  (altitudeapac.com, Enghouse Interactive). No OpenAPI/AsyncAPI/GraphQL spec, no
+  developer portal, no /.well-known (404), no llms.txt (404), no public package
+  registries — integration is via the proprietary on-prem uAgent SDK only.
+  Identity hygiene applied; no artifacts fabricated.
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Contact Center
+- Customer Interaction Management
+- Call Center Software
+- Customer Experience
+- Omnichannel
+- CRM
+- CCaaS
 apis: []
+common:
+- type: Website
+  url: https://altitudeapac.com/
+  name: Altitude Software (APAC regional site, Enghouse Interactive)
+- type: Support
+  url: https://altitudeapac.com/contact/
+  name: Contact / Support
+- type: Blog
+  url: https://altitudeapac.com/resources/
+  name: Resources — Articles & Insights
+- type: Investment
+  url: https://www.insightpartners.com/portfolio/altitude-software/
+  name: Insight Partners portfolio profile
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
