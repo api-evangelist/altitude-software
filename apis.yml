@@ -38,6 +38,8 @@ description: >-
   OpenAPI specification; integration is delivered through the proprietary uAgent
   SDK and packaged CRM/ERP connectors.
 url: https://raw.githubusercontent.com/api-evangelist/altitude-software/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
