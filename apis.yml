@@ -59,7 +59,7 @@ x-enrichment-note: >-
   Identity hygiene applied; no artifacts fabricated.
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-10-06'
 tags:
 - Company
 - Contact Center
@@ -71,6 +71,8 @@ tags:
 - CCaaS
 apis: []
 common:
+- url: https://altitudeapac.com/feed/
+  type: BlogRSS
 - type: Website
   url: https://altitudeapac.com/
   name: Altitude Software (APAC regional site, Enghouse Interactive)
